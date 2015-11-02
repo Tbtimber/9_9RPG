@@ -22,7 +22,7 @@ import world.group.RPGGroup;
 public class RockTile extends WorldTile {
 
     public RockTile() {
-        super(false,'R');
+        super(false,'*');
     }
 
     @Override

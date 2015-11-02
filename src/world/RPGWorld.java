@@ -150,7 +150,7 @@ public class RPGWorld {
         for(int i=0; i<WORLD_SIZE;i++) {
             for(int j=0;j<WORLD_SIZE;j++) {
                 if(i==MIDDLE_INDICE && j==MIDDLE_INDICE) {
-                    System.out.print("G");
+                    System.out.print("#");
                 } else {
                     System.out.print(this.tiles.get(i).get(j).getDisplayChar());
                 }
