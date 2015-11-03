@@ -1,5 +1,7 @@
 package world.group.rpgChar;
 
+import world.rpgObject.RPGObject;
+
 /**
  * Created by Matthieu on 30/10/2015.
  */
@@ -11,5 +13,9 @@ public abstract class RPGGoodGuy extends RPGCharacter {
 
     public RPGGoodGuy(int baseLvl, int endurance, int intel, int strength, int agility, int velocity) {
         super(baseLvl, endurance, intel, strength, agility, velocity);
+    }
+
+    public void drinkPotion(RPGObject potion) {
+
     }
 }
