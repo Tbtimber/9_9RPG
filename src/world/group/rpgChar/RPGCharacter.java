@@ -7,6 +7,8 @@ import world.group.rpgChar.component.ExpBar;
 import world.group.rpgChar.component.LifeBar;
 import world.group.rpgChar.component.RPGStats;
 
+import java.util.ArrayList;
+
 /**
  * Created by Matthieu on 30/10/2015.
  */
@@ -52,6 +54,9 @@ public abstract class RPGCharacter {
         this.bIsAlive = true;
         this.fightStyle = new StrengthFight();
     }
+    public abstract void makeFightChoice(ArrayList<RPGCharacter> group);
+
+
     public void attack(RPGCharacter defender) {
         this.fightStyle.attack(this,defender);
     }
@@ -77,5 +82,17 @@ public abstract class RPGCharacter {
         }
     }
 
+    public RPGStats getStats() {
+        return stats;
+    }
+
+    public boolean isDead() {
+        return !bIsAlive;
+    }
+
+    public void displayChar() {
+        System.out.println(this.getClass().getSimpleName());
+        this.lifeBar.display();
+    }
 
 }

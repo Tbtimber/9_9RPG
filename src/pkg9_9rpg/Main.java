@@ -19,8 +19,10 @@ public class Main {
         // TODO code application logic here
         RPGWorld world = new RPGWorld();
         world.displayWorld();
-        world.chooseNextDisplacement();
-        world.displayWorld();
+        while(true) {
+            world.chooseNextDisplacement();
+            world.displayWorld();
+        }
     }
     
 }

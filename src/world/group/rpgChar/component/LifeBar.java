@@ -41,4 +41,12 @@ public class LifeBar extends RPGBar {
                 this.currentValue = this.maxValue;
         }
     }
+    public void display() {
+        if (this.currentValue > 0 ) {
+            System.out.println("Life point: "+this.currentValue+"/"+this.maxValue);
+        } else {
+            System.out.println("-----DEAD-----");
+        }
+
+    }
 }

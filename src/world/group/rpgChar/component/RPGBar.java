@@ -22,6 +22,11 @@ public abstract class RPGBar {
             this.currentValue = 0;
         }
     }
+
+    public int getCurrentValue() {
+        return currentValue;
+    }
+
     /**
      * Decrease the CurrentValue and throw a ComponentExceptions
      * Must be implemented for all the different bars as they may have different behaviour

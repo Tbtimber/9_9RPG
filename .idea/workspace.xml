@@ -2,15 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8379301f-c22c-4805-8ecd-36a4da0fa52d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/world/event/FightSorter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/pkg9_9rpg/Main.class" afterPath="$PROJECT_DIR$/build/classes/pkg9_9rpg/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/RPGWorld.class" afterPath="$PROJECT_DIR$/build/classes/world/RPGWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/event/Fight.class" afterPath="$PROJECT_DIR$/build/classes/world/event/Fight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/RPGGroup.class" afterPath="$PROJECT_DIR$/build/classes/world/group/RPGGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/rpgChar/RPGCharacter.class" afterPath="$PROJECT_DIR$/build/classes/world/group/rpgChar/RPGCharacter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/rpgChar/RPGEnemy.class" afterPath="$PROJECT_DIR$/build/classes/world/group/rpgChar/RPGEnemy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/rpgChar/RPGGoodGuy.class" afterPath="$PROJECT_DIR$/build/classes/world/group/rpgChar/RPGGoodGuy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/rpgChar/behaviour/MagicFight.class" afterPath="$PROJECT_DIR$/build/classes/world/group/rpgChar/behaviour/MagicFight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/rpgChar/behaviour/StrengthFight.class" afterPath="$PROJECT_DIR$/build/classes/world/group/rpgChar/behaviour/StrengthFight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/rpgChar/component/LifeBar.class" afterPath="$PROJECT_DIR$/build/classes/world/group/rpgChar/component/LifeBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/rpgChar/component/RPGBar.class" afterPath="$PROJECT_DIR$/build/classes/world/group/rpgChar/component/RPGBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/group/rpgChar/component/RPGStats.class" afterPath="$PROJECT_DIR$/build/classes/world/group/rpgChar/component/RPGStats.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/rpgObject/LifePotion.class" afterPath="$PROJECT_DIR$/build/classes/world/rpgObject/LifePotion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/rpgObject/RPGObject.class" afterPath="$PROJECT_DIR$/build/classes/world/rpgObject/RPGObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/tiles/RockTile.class" afterPath="$PROJECT_DIR$/build/classes/world/tiles/RockTile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/world/tiles/SolidRockTile.class" afterPath="$PROJECT_DIR$/build/classes/world/tiles/SolidRockTile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/pkg9_9rpg/Main.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/pkg9_9rpg/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/RPGWorld.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/RPGWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/event/Fight.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/event/Fight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/RPGGroup.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/RPGGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGCharacter.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGCharacter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGEnemy.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGEnemy.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGGoodGuy.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGGoodGuy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/rpgObject/LifePotion.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/rpgObject/LifePotion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/rpgObject/RPGObject.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/rpgObject/RPGObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/component/LifeBar.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/component/LifeBar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/component/RPGBar.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/component/RPGBar.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pkg9_9rpg/Main.java" afterPath="$PROJECT_DIR$/src/pkg9_9rpg/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/RPGWorld.java" afterPath="$PROJECT_DIR$/src/world/RPGWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/event/Fight.java" afterPath="$PROJECT_DIR$/src/world/event/Fight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/RPGGroup.java" afterPath="$PROJECT_DIR$/src/world/group/RPGGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/RPGEnemy.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/RPGEnemy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/FightStyle.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/FightStyle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/rpgObject/LifePotion.java" afterPath="$PROJECT_DIR$/src/world/rpgObject/LifePotion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/rpgObject/RPGObject.java" afterPath="$PROJECT_DIR$/src/world/rpgObject/RPGObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/component/RPGBar.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/component/RPGBar.java" />
     </list>
     <ignored path="9_9RPG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,14 +59,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ExpBar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/ExpBar.java">
+      <file leaf-file-name="RPGWorld.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/world/RPGWorld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolidRockTile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/world/tiles/SolidRockTile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
-                <element signature="e#1146#1147#0" expanded="false" />
-                <element signature="e#1226#1227#0" expanded="false" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,26 +86,8 @@
         <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-              <folding>
-                <element signature="e#203#204#0" expanded="false" />
-                <element signature="e#239#240#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GrassTile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/world/tiles/GrassTile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#979#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#515#516#0" expanded="false" />
-                <element signature="e#547#548#0" expanded="false" />
-              </folding>
+              <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,24 +96,67 @@
         <entry file="file://$PROJECT_DIR$/src/world/event/Fight.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <element signature="e#0#858#0" expanded="false" />
-                <element signature="e#640#641#0" expanded="false" />
-                <element signature="e#692#693#0" expanded="false" />
-                <element signature="e#817#818#0" expanded="false" />
-                <element signature="e#854#855#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#689#703#0" expanded="true" />
+                <element signature="e#2095#2096#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AgilityFight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/behaviour/AgilityFight.java">
+      <file leaf-file-name="RPGCharacter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2769#2770#0" expanded="true" />
+                <element signature="e#2797#2798#0" expanded="true" />
+                <element signature="e#2828#2829#0" expanded="true" />
+                <element signature="e#2860#2861#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pkg9_9rpg/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RPGGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/world/group/RPGGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+              <folding>
+                <element signature="e#559#573#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RPGGoodGuy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9966216">
+              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,41 +171,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RPGObject.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/world/rpgObject/RPGObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19599108">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LifePotion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/world/rpgObject/LifePotion.java">
+      <file leaf-file-name="StrengthFight.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/behaviour/StrengthFight.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RPGGoodGuy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComponentExceptions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/ComponentExceptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,33 +203,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/world/event/NoEvent.java" />
-        <option value="$PROJECT_DIR$/src/world/event/Fight.java" />
         <option value="$PROJECT_DIR$/src/world/event/RPGEvent.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/ComponentExceptions.java" />
-        <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/RPGBar.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/ExpBar.java" />
         <option value="$PROJECT_DIR$/src/world/tiles/TileEvent.java" />
         <option value="$PROJECT_DIR$/src/world/tiles/WorldTile.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/Strentgh.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/RPGStats.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/MagicFight.java" />
-        <option value="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/StrengthFight.java" />
-        <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java" />
-        <option value="$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java" />
-        <option value="$PROJECT_DIR$/src/world/group/RPGGroup.java" />
-        <option value="$PROJECT_DIR$/src/world/group/rpgChar/RPGEnemy.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/Warrior.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/Mage.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/Archer.java" />
-        <option value="$PROJECT_DIR$/src/world/RPGWorld.java" />
         <option value="$PROJECT_DIR$/src/world/tiles/SolidRockTile.java" />
         <option value="$PROJECT_DIR$/src/world/tiles/RockTile.java" />
         <option value="$PROJECT_DIR$/src/world/tiles/GrassTile.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/AgilityFight.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/FightStyle.java" />
-        <option value="$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java" />
         <option value="$PROJECT_DIR$/src/world/rpgObject/LifePotion.java" />
         <option value="$PROJECT_DIR$/src/world/rpgObject/RPGObject.java" />
+        <option value="$PROJECT_DIR$/src/world/event/FightSorter.java" />
+        <option value="$PROJECT_DIR$/src/world/group/rpgChar/RPGEnemy.java" />
+        <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/RPGBar.java" />
+        <option value="$PROJECT_DIR$/src/world/group/RPGGroup.java" />
+        <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java" />
+        <option value="$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java" />
+        <option value="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/StrengthFight.java" />
+        <option value="$PROJECT_DIR$/src/pkg9_9rpg/Main.java" />
+        <option value="$PROJECT_DIR$/src/world/RPGWorld.java" />
+        <option value="$PROJECT_DIR$/src/world/event/Fight.java" />
+        <option value="$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java" />
       </list>
     </option>
   </component>
@@ -232,7 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,28 +343,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rpgObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9_9RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9_9RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="group" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -358,66 +370,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rpgChar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9_9RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9_9RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="group" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rpgChar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9_9RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9_9RPG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="group" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rpgChar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="behaviour" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,17 +415,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.Unnamed">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -600,8 +549,58 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="9_9RPG" />
       <envs />
       <method />
     </configuration>
@@ -627,6 +626,34 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -686,27 +713,27 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.433942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -726,7 +753,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/world/event/Fight.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -735,14 +776,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/world/rpgObject/RPGObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/world/tiles/GrassTile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -769,8 +802,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,7 +813,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1401#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+            <element signature="e#1056#1057#0" expanded="false" />
+            <element signature="e#1092#1093#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -792,8 +830,8 @@
           <folding>
             <element signature="e#582#583#0" expanded="true" />
             <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -816,10 +854,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,10 +862,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#203#204#0" expanded="false" />
-            <element signature="e#239#240#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -846,6 +878,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2055#2056#0" expanded="true" />
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -861,8 +900,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,7 +919,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1401#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+            <element signature="e#1056#1057#0" expanded="false" />
+            <element signature="e#1092#1093#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -892,8 +936,8 @@
           <folding>
             <element signature="e#582#583#0" expanded="true" />
             <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -916,10 +960,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,10 +968,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#203#204#0" expanded="false" />
-            <element signature="e#239#240#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -946,6 +984,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2055#2056#0" expanded="true" />
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -954,16 +999,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pkg9_9rpg/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -981,55 +1019,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/tiles/WorldTile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/RPGBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/behaviour/StrengthFight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/behaviour/MagicFight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGEnemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/RPGGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/RPGStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1054,41 +1047,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/RPGWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="40" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/tiles/SolidRockTile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/world/tiles/RockTile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1106,32 +1071,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/event/Fight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#858#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#817#818#0" expanded="false" />
-            <element signature="e#854#855#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/behaviour/AgilityFight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/behaviour/FightStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1148,28 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding>
-            <element signature="e#203#204#0" expanded="false" />
-            <element signature="e#239#240#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1184,9 +1105,164 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/world/rpgObject/RPGObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19599108">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/tiles/WorldTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1401#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+            <element signature="e#1056#1057#0" expanded="false" />
+            <element signature="e#1092#1093#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/RPGStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#337#338#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/event/FightSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGEnemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/RPGBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#721#722#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/RPGGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#559#573#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/behaviour/FightStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/behaviour/StrengthFight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/tiles/SolidRockTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pkg9_9rpg/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/RPGWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
+            <element signature="e#2860#2861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/event/Fight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#689#703#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9966216">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

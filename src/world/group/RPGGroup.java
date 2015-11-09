@@ -23,4 +23,24 @@ public class RPGGroup {
     public void add(RPGCharacter character) {
         this.group.add(character);
     }
+
+    public ArrayList<RPGCharacter> getGroup() {
+        return group;
+    }
+
+    public boolean isGroupDead() {
+        boolean isDead = true;
+        for (int i=0;i<this.group.size();i++) {
+            if(!this.group.get(i).isDead()){
+                isDead = false;
+            }
+        }
+        return isDead;
+    }
+
+    public void displayGroup() {
+        for(int i=0;i<this.group.size();i++) {
+            this.group.get(i).displayChar();
+        }
+    }
 }

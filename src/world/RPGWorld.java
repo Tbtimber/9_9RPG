@@ -5,11 +5,15 @@
  */
 
 package world;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 import world.event.RPGEvent;
 import world.group.RPGGroup;
+import world.group.rpgChar.Archer;
+import world.group.rpgChar.Mage;
+import world.group.rpgChar.Warrior;
 import world.tiles.*;
 /**
  * 
@@ -20,7 +24,8 @@ import world.tiles.*;
  * @version %I%, %G%
  * 
  */
-public class RPGWorld {
+public class RPGWorld   {
+
     private static final int WORLD_SIZE = 5; //Must be an odd number !
     private static final int MIDDLE_INDICE = 2; //Value of the middle for the ArrayList containing the WorldTiles ! Is dependant of WORLD_SIZE !
     private ArrayList<ArrayList<WorldTile>> tiles = new ArrayList<ArrayList<WorldTile>>();
@@ -39,6 +44,10 @@ public class RPGWorld {
             this.tiles.add(tempTiles);
         }
         this.group = new RPGGroup();
+        this.group.add(new Warrior());
+        this.group.add(new Mage());
+        this.group.add(new Archer());
+
     }
     /**
      * Function that let the user choose the next displacement (up/right/down/left)
@@ -177,6 +186,9 @@ public class RPGWorld {
         return new GrassTile();
     }
 
+    /**
+     * Get and play the new Tile event
+     */
     private void playNextEvent() {
         RPGEvent event = this.tiles.get(MIDDLE_INDICE).get(MIDDLE_INDICE).getTileEvent(this.group);
         event.play();
