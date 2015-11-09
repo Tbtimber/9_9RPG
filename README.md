@@ -3,7 +3,8 @@ Little java RPG project for school
 
 Todo list:
 - Add a serialize system for RPGWorld (save/load) 
-- Fight system 
-- Object
-- General play of the world
+- Fight system (DONE)
+- RPGObject
+- General play of the world (DONE partially)
+- ADD logSystem(Done) + add all the log entry 
 ...
