@@ -20,7 +20,7 @@ import world.group.RPGGroup;
 public class GrassTile extends WorldTile  {
 
     public GrassTile() {
-        super(false,'/');
+        super(false,'\u2591');
     }
 
     @Override

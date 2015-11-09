@@ -22,10 +22,11 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         RPGWorld world = new RPGWorld();
-        world.displayWorld();
+
         boolean isGameOver = false;
         Scanner sc = new Scanner(System.in);
         while(!isGameOver) {
+            world.displayWorld();
             System.out.println("What do you want to do ?\n\t 1: Move\n\t 2: Display team status\n\t 3: Stop Playing");
             int choice=0;
             try  {
@@ -47,9 +48,10 @@ public class Main {
                 default:
                     break;
             }
-            if(world.getGroup().isGroupDead())
+            if(world.getGroup().isGroupDead()) {
                 isGameOver = true;
-            world.displayWorld();
+                System.out.println("You are dead !");
+            }
         }
         System.out.println("End of the game .... ");
     }

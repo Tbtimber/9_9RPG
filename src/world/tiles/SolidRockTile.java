@@ -21,7 +21,7 @@ import world.group.RPGGroup;
 public class SolidRockTile extends WorldTile {
 
     public SolidRockTile() {
-        super(true,'0');
+        super(true,'\u2588');
     }
     public RPGEvent getTileEvent(RPGGroup group) {
         return new NoEvent(group);

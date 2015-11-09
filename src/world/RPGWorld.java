@@ -22,12 +22,13 @@ import world.tiles.*;
  * 
  * @author Matthieu
  * @version %I%, %G%
+ * @
  * 
  */
 public class RPGWorld   {
 
-    private static final int WORLD_SIZE = 21; //Must be an odd number !
-    private static final int MIDDLE_INDICE = 10; //Value of the middle for the ArrayList containing the WorldTiles ! Is dependant of WORLD_SIZE !
+    private static final int WORLD_SIZE = 9; //Must be an odd number !
+    private static final int MIDDLE_INDICE = 4; //Value of the middle for the ArrayList containing the WorldTiles ! Is dependant of WORLD_SIZE !
     private ArrayList<ArrayList<WorldTile>> tiles = new ArrayList<ArrayList<WorldTile>>();
     private RPGGroup group;
 
@@ -157,14 +158,14 @@ public class RPGWorld   {
         }
     }
     /**
-     * Display the current world 
+     * Display the current world map
      */
     public void displayWorld() {
         System.out.println("----------------WORLD MAP-----------------");
         for(int i=0; i<WORLD_SIZE;i++) {
             for(int j=0;j<WORLD_SIZE;j++) {
                 if(i==MIDDLE_INDICE && j==MIDDLE_INDICE) {
-                    System.out.print("#");
+                    System.out.print("\u25EF");
                 } else {
                     System.out.print(this.tiles.get(i).get(j).getDisplayChar());
                 }
