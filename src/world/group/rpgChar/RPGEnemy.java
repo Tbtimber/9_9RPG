@@ -18,6 +18,18 @@ public abstract class RPGEnemy extends  RPGCharacter {
 
     @Override
     public void makeFightChoice(ArrayList<RPGCharacter> group) {
-        attack(group.get(0));
+        int iter = -1;
+        boolean aimFound = false;
+        while(iter < group.size() && !aimFound) {
+            iter++;
+            if((group.get(iter).getClass().getSimpleName() != "Monster") &&(group.get(iter).getClass().getSimpleName() != "Beast") && (group.get(iter).bIsAlive)) {
+                aimFound = true;
+            }
+        }
+        if(!aimFound) {
+            return;
+        } else {
+            this.attack(group.get(iter));
+        }
     }
 }

@@ -6,8 +6,10 @@
 
 package world.event;
 
+import world.RPGWorld;
 import world.group.RPGGroup;
 import world.group.rpgChar.Beast;
+import world.group.rpgChar.Monster;
 import world.group.rpgChar.RPGCharacter;
 import world.group.rpgChar.Warrior;
 
@@ -62,10 +64,17 @@ public class Fight extends RPGEvent {
      */
     private RPGGroup generateOpponent() {
         RPGGroup ennemies = new RPGGroup();
-        ennemies.add(new Beast());
-        ennemies.add(new Beast());
-        ennemies.add(new Beast());
-        ennemies.add(new Beast());
+        if(RPGWorld.getMiddletile().getClass().getSimpleName() == new String("GrassTile")) {
+            ennemies.add(new Beast());
+            ennemies.add(new Beast());
+            ennemies.add(new Beast());
+            ennemies.add(new Beast());
+        } else {
+            ennemies.add(new Monster());
+            ennemies.add(new Monster());
+            ennemies.add(new Monster());
+            ennemies.add(new Monster());
+        }
         return ennemies;
     }
 

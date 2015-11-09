@@ -29,9 +29,14 @@ public class RPGWorld   {
 
     private static final int WORLD_SIZE = 9; //Must be an odd number !
     private static final int MIDDLE_INDICE = 4; //Value of the middle for the ArrayList containing the WorldTiles ! Is dependant of WORLD_SIZE !
-    private ArrayList<ArrayList<WorldTile>> tiles = new ArrayList<ArrayList<WorldTile>>();
+    private static ArrayList<ArrayList<WorldTile>> tiles = new ArrayList<ArrayList<WorldTile>>();
     private RPGGroup group;
 
+    public static WorldTile getMiddletile() {
+        return middletile;
+    }
+
+    private static WorldTile middletile;
     public RPGGroup getGroup() {
         return group;
     }
@@ -52,7 +57,7 @@ public class RPGWorld   {
         this.group.add(new Warrior());
         this.group.add(new Mage());
         this.group.add(new Archer());
-
+        this.middletile = this.tiles.get(MIDDLE_INDICE).get(MIDDLE_INDICE);
     }
     /**
      * Function that let the user choose the next displacement (up/right/down/left)
@@ -83,6 +88,7 @@ public class RPGWorld   {
             }
         } while (!this.checkNextDisplacement(orientation));
         this.makeNextDisplacement(orientation);
+        this.middletile = this.tiles.get(MIDDLE_INDICE).get(MIDDLE_INDICE);
         this.playNextEvent();
     }
 
