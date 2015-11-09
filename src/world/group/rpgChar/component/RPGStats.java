@@ -5,6 +5,7 @@ package world.group.rpgChar.component;
  * Created by Matthieu on 01/11/2015.
  */
 public class RPGStats {
+    private static final double VEL_MULT = 0.5;
     private int endurence;
     private int intel;
     private int strength;
@@ -35,7 +36,7 @@ public class RPGStats {
         this.endurence = endurence;
         this.intel = intel;
         this.strength = strength;
-        this.velocity = velocity;
         this.agility = agility;
+        this.velocity = velocity + (int)(this.agility*VEL_MULT);
     }
 }

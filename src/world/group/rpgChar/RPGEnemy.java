@@ -18,6 +18,6 @@ public abstract class RPGEnemy extends  RPGCharacter {
 
     @Override
     public void makeFightChoice(ArrayList<RPGCharacter> group) {
-
+        attack(group.get(0));
     }
 }

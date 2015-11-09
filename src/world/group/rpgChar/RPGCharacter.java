@@ -32,7 +32,7 @@ public abstract class RPGCharacter {
      */
     public RPGCharacter(int endurance, int intel, int strength, int agility, int velocity) {
         this.stats = new RPGStats(endurance, intel,strength,agility,velocity);
-        this.lifeBar = new LifeBar(this.stats.getEndurence()*LifeBar.ENDU_MULT);
+        this.lifeBar = new LifeBar((this.stats.getEndurence()+ (int)(this.stats.getStrength()*0.5))*LifeBar.ENDU_MULT );
         this.expBar = new ExpBar(1);
         this.bIsAlive = true;
         this.fightStyle = new StrengthFight();

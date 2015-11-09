@@ -7,6 +7,7 @@
 package world.event;
 
 import world.group.RPGGroup;
+import world.group.rpgChar.Beast;
 import world.group.rpgChar.RPGCharacter;
 import world.group.rpgChar.Warrior;
 
@@ -40,16 +41,19 @@ public class Fight extends RPGEvent {
         System.out.println("Fight starts !");
 
         while ((!this.group.isGroupDead()) && (!this.enemies.isGroupDead())){
-            System.out.println("Current character:");
+            System.out.println("---------------------Current Character----------------------");
             this.fullGroup.get(iter).displayChar();
             if(!this.fullGroup.get(iter).isDead()) {
                 this.fullGroup.get(iter).makeFightChoice(this.fullGroup);
             }
             iter++;
             iter %= this.fullGroup.size();
-            System.out.println("---------------------Next Character----------------------");
         }
-
+        if(this.group.isGroupDead()) {
+            System.out.println("GAME OVER !");
+        } else {
+            System.out.println("End of the fight !");
+        }
 
     }
 
@@ -58,10 +62,10 @@ public class Fight extends RPGEvent {
      */
     private RPGGroup generateOpponent() {
         RPGGroup ennemies = new RPGGroup();
-        ennemies.add(new Warrior());
-        ennemies.add(new Warrior());
-        ennemies.add(new Warrior());
-        ennemies.add(new Warrior());
+        ennemies.add(new Beast());
+        ennemies.add(new Beast());
+        ennemies.add(new Beast());
+        ennemies.add(new Beast());
         return ennemies;
     }
 

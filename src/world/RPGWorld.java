@@ -26,10 +26,14 @@ import world.tiles.*;
  */
 public class RPGWorld   {
 
-    private static final int WORLD_SIZE = 5; //Must be an odd number !
-    private static final int MIDDLE_INDICE = 2; //Value of the middle for the ArrayList containing the WorldTiles ! Is dependant of WORLD_SIZE !
+    private static final int WORLD_SIZE = 21; //Must be an odd number !
+    private static final int MIDDLE_INDICE = 10; //Value of the middle for the ArrayList containing the WorldTiles ! Is dependant of WORLD_SIZE !
     private ArrayList<ArrayList<WorldTile>> tiles = new ArrayList<ArrayList<WorldTile>>();
     private RPGGroup group;
+
+    public RPGGroup getGroup() {
+        return group;
+    }
 
     /**
      * Constructor for the world:
@@ -156,6 +160,7 @@ public class RPGWorld   {
      * Display the current world 
      */
     public void displayWorld() {
+        System.out.println("----------------WORLD MAP-----------------");
         for(int i=0; i<WORLD_SIZE;i++) {
             for(int j=0;j<WORLD_SIZE;j++) {
                 if(i==MIDDLE_INDICE && j==MIDDLE_INDICE) {

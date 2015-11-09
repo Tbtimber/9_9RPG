@@ -6,6 +6,10 @@
 
 package pkg9_9rpg;
 import world.RPGWorld;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 /**
  *
  * @author Matthieu
@@ -19,10 +23,35 @@ public class Main {
         // TODO code application logic here
         RPGWorld world = new RPGWorld();
         world.displayWorld();
-        while(true) {
-            world.chooseNextDisplacement();
+        boolean isGameOver = false;
+        Scanner sc = new Scanner(System.in);
+        while(!isGameOver) {
+            System.out.println("What do you want to do ?\n\t 1: Move\n\t 2: Display team status\n\t 3: Stop Playing");
+            int choice=0;
+            try  {
+                choice = sc.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println("Wrong input ...");
+                sc.next();
+            }
+            switch (choice) {
+                case 1:
+                    world.chooseNextDisplacement();
+                    break;
+                case 2:
+                    world.getGroup().displayGroup();
+                    break;
+                case 3:
+                    isGameOver = true;
+                    break;
+                default:
+                    break;
+            }
+            if(world.getGroup().isGroupDead())
+                isGameOver = true;
             world.displayWorld();
         }
+        System.out.println("End of the game .... ");
     }
     
 }

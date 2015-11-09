@@ -28,8 +28,11 @@ public abstract class RPGGoodGuy extends RPGCharacter {
         //String choice = "";
         while (!isChoiceGood) {
             try {
-                System.out.println("Choose an action:\n\tAttack : 1\n\tDefend : 1\n\tWait : 3");
-                int choice = sc.nextInt();
+                System.out.println("Choose an action:\n\tAttack : 1\n\tDefend : 2\n\tWait : 3");
+                int choice=-1;
+                if(sc.hasNextInt()) {
+                    choice = sc.nextInt();
+                }
                 switch (choice) {
                     case 1:
                         isChoiceGood = true;
@@ -50,8 +53,10 @@ public abstract class RPGGoodGuy extends RPGCharacter {
                         isChoiceGood = false;
                         break;
                 }
-            } catch (java.util.InputMismatchException e) {
+            } catch (InputMismatchException e) {
+                System.out.println("Wrong input...");
                 isChoiceGood = false;
+                sc.next();
             }
         }
     }
@@ -71,8 +76,9 @@ public abstract class RPGGoodGuy extends RPGCharacter {
             } catch (InputMismatchException e) {
                 System.out.println("Wrong input !");
                 choice = -1;
+                sc.next();
             }
-        } while (!(choice < group.size()) && !(choice >= 0));
+        } while (!(choice < group.size() && choice >= 0));
         return group.get(choice);
     }
 
