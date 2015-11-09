@@ -5,6 +5,7 @@
  */
 
 package pkg9_9rpg;
+import world.LogFile.SaveData;
 import world.RPGWorld;
 
 import java.util.InputMismatchException;
@@ -54,6 +55,13 @@ public class Main {
             }
         }
         System.out.println("End of the game .... ");
+        SaveData.write("Jesuisleplusbeau!");
+        SaveData.write("Jesuisleplusbeau!");
+        SaveData.write("Jesuisleplusbeau!");
+        SaveData.write("Jesuisleplusbeau!");
+        SaveData.write("Jesuisleplusbeau!");
+        SaveData.write("Jesuisleplusbeau!");
+        SaveData.write("Jesuisleplusbeau!");
     }
     
 }
