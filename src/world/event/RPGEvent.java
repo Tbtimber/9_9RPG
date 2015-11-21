@@ -16,7 +16,8 @@ import world.group.RPGGroup;
  * @see RPGGroup
  */
 public abstract class RPGEvent {
-    public static final int NBR_EVENT = 2;
+
+    public static final int NBR_EVENT = 2;// Number of event types
     protected RPGGroup group;
 
     public RPGEvent(RPGGroup group) {

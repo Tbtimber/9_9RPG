@@ -1,5 +1,6 @@
 package world.group.rpgChar.behaviour;
 
+import world.LogFile.SaveData;
 import world.event.Fight;
 import world.group.rpgChar.RPGCharacter;
 
@@ -14,10 +15,12 @@ public class MagicFight implements FightStyle {
         double damageTemp = attacker.getStats().getIntel()*DAMAGE_MULT;
         damageTemp -= defender.getStats().getIntel()*DEFENSE_MULT;
         defender.receiveAttack((int)damageTemp);
+        SaveData.write(attacker.getClass().getSimpleName() + " dealt " + damageTemp + " damage to " + defender.getClass().getSimpleName(), true);
+
     }
 
     @Override
     public void defend(RPGCharacter defender) {
-
+        SaveData.write(defender.getClass().getSimpleName() + " is defending !", true);
     }
 }

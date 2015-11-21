@@ -6,12 +6,14 @@
 
 package world.event;
 
+import world.LogFile.SaveData;
 import world.RPGWorld;
 import world.group.RPGGroup;
 import world.group.rpgChar.Beast;
 import world.group.rpgChar.Monster;
 import world.group.rpgChar.RPGCharacter;
 import world.group.rpgChar.Warrior;
+import world.tiles.GrassTile;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,6 +28,11 @@ import java.util.Collections;
 public class Fight extends RPGEvent {
     private RPGGroup enemies;
     private ArrayList<RPGCharacter> fullGroup = new ArrayList<RPGCharacter>();
+
+    /**
+     * Construcor that take the RPGgroup of the player
+     * @param group RPGGroup of the player
+     */
     public Fight(RPGGroup group) {
         super(group);
         this.enemies = this.generateOpponent();
@@ -37,20 +44,30 @@ public class Fight extends RPGEvent {
         }
         this.findOrder();
     }
+
+    /**
+     * Make the fight happen
+     */
     @Override
     public void play() {
         int iter=0;
         System.out.println("Fight starts !");
-
+        SaveData.write("A fight started !",true);
+        int fightTurn = 0;
         while ((!this.group.isGroupDead()) && (!this.enemies.isGroupDead())){
+
             System.out.println("---------------------Current Character----------------------");
+
             this.fullGroup.get(iter).displayChar();
             if(!this.fullGroup.get(iter).isDead()) {
                 this.fullGroup.get(iter).makeFightChoice(this.fullGroup);
+                fightTurn++;
+                SaveData.write("\tTurn " + fightTurn + " : ",false);
             }
             iter++;
             iter %= this.fullGroup.size();
         }
+        SaveData.write("End of the fight !" ,true);
         if(this.group.isGroupDead()) {
             System.out.println("GAME OVER !");
         } else {
@@ -64,7 +81,7 @@ public class Fight extends RPGEvent {
      */
     private RPGGroup generateOpponent() {
         RPGGroup ennemies = new RPGGroup();
-        if(RPGWorld.getMiddletile().getClass().getSimpleName() == new String("GrassTile")) {
+        if(RPGWorld.getMiddletile().getClass().getSimpleName() == GrassTile.class.getSimpleName()) {
             ennemies.add(new Beast());
             ennemies.add(new Beast());
             ennemies.add(new Beast());

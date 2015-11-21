@@ -39,4 +39,12 @@ public class RPGStats {
         this.agility = agility;
         this.velocity = velocity + (int)(this.agility*VEL_MULT);
     }
+    public void displayStats() {
+        System.out.println("\tEndurance : " + this.endurence);
+        System.out.println("\tIntelligence : " + this.intel);
+        System.out.println("\tStrength : " + this.strength);
+        System.out.println("\tAgility : " + this.agility);
+        System.out.println("\tVelocity : " + this.velocity);
+    }
 }
+

@@ -1,6 +1,7 @@
 package world.group.rpgChar;
 
 /**
+ * Warrior playable class
  * Created by Matthieu on 02/11/2015.
  */
 public class Warrior extends RPGGoodGuy {

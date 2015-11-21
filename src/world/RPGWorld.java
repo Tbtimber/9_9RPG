@@ -9,6 +9,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import world.LogFile.SaveData;
 import world.event.RPGEvent;
 import world.group.RPGGroup;
 import world.group.rpgChar.Archer;
@@ -22,7 +23,7 @@ import world.tiles.*;
  * 
  * @author Matthieu
  * @version %I%, %G%
- * @
+ *
  * 
  */
 public class RPGWorld   {
@@ -120,6 +121,7 @@ public class RPGWorld   {
                 }
                 break;
             default:
+                System.out.println("Tile is solid in the chosen direction !\nPlease choose another direction !");
                 return false;
         }
         return true;
@@ -139,12 +141,14 @@ public class RPGWorld   {
                 }
                 this.tiles.add(0, tmpTiles);
                 this.tiles.remove(this.tiles.size()-1);
+                SaveData.write("Moved Up\n",true);
                 break;
             case 2: //Right
                 for(int i=0;i<WORLD_SIZE;i++) {
                     this.tiles.get(i).add(this.chooseNewTile());
                     this.tiles.get(i).remove(0);
                 }
+                SaveData.write("Moved RIGHT\n",true);
                 break;
             case 3: //Down
                 ArrayList<WorldTile> tmpTiles2 = new ArrayList<WorldTile>();
@@ -153,12 +157,14 @@ public class RPGWorld   {
                 }
                 this.tiles.add(tmpTiles2);
                 this.tiles.remove(0);
+                SaveData.write("Moved DOWN\n", true);
                 break;
             case 4: //Left
                 for(int i=0;i<WORLD_SIZE;i++) {
                     this.tiles.get(i).add(0, this.chooseNewTile());
                     this.tiles.get(i).remove(this.tiles.get(i).size() -1);
                 }
+                SaveData.write("Moved LEFT\n",true);
                 break;
             default:
         }

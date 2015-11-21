@@ -1,5 +1,6 @@
 package world.group.rpgChar;
 
+import world.LogFile.SaveData;
 import world.rpgObject.RPGObject;
 
 import java.io.IOException;
@@ -8,6 +9,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
+ * Playable character
  * Created by Matthieu on 30/10/2015.
  */
 public abstract class RPGGoodGuy extends RPGCharacter {
@@ -47,6 +49,7 @@ public abstract class RPGGoodGuy extends RPGCharacter {
                     case 3:
                         isChoiceGood = true;
                         System.out.println("Waiting ...");
+                        SaveData.write(this.getClass().getSimpleName() + " waited",true);
                         break;
                     default:
                         System.out.println("Wrong input...");
@@ -61,6 +64,11 @@ public abstract class RPGGoodGuy extends RPGCharacter {
         }
     }
 
+    /**
+     * Make the program user choose a character in an ArrayList of RPGCharacter
+     * @param group Arraylist of RPGCharacter
+     * @return the character that is chosen
+     */
     private RPGCharacter chooseChar(ArrayList<RPGCharacter> group) {
         Scanner sc = new Scanner(System.in);
 

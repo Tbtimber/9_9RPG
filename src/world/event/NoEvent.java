@@ -1,5 +1,6 @@
 package world.event;
 
+import world.LogFile.SaveData;
 import world.group.RPGGroup;
 
 /**
@@ -18,5 +19,6 @@ public class NoEvent extends RPGEvent {
     @Override
     public void play() {
         System.out.println("Nothing happens ...");
+        SaveData.write("\tNothing happened in this tile !",true);
     }
 }

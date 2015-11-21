@@ -3,6 +3,7 @@ package world.group.rpgChar;
 import world.group.rpgChar.behaviour.MagicFight;
 
 /**
+ * Magic playable character
  * Created by Matthieu on 02/11/2015.
  */
 public class Mage extends RPGGoodGuy {

@@ -54,15 +54,32 @@ public abstract class RPGCharacter {
         this.bIsAlive = true;
         this.fightStyle = new StrengthFight();
     }
+
+    /**
+     * Fonction that need to be redefine for an "AI" behaviour and the player's choices
+     * @param group all the character present in the fight Event
+     */
     public abstract void makeFightChoice(ArrayList<RPGCharacter> group);
 
-
+    /**
+     * Deal damages to a RPGCharacter using the specific fightstyle of the character
+     * @param defender ...
+     */
     public void attack(RPGCharacter defender) {
         this.fightStyle.attack(this,defender);
     }
+
+    /**
+     * Defend action of the character according to its fight style
+     */
     public void defend() {
         this.fightStyle.defend(this);
     }
+
+    /**
+     * Receive the damage of another character
+     * @param damageValue damage value
+     */
     public void receiveAttack(int damageValue) {
         try {
             this.lifeBar.decrease(damageValue);
@@ -70,6 +87,12 @@ public abstract class RPGCharacter {
             this.bIsAlive = false;
         }
     }
+
+    /**
+     * NOT IMPLEMENTED YET IN FIGHT ACTION
+     * Receive the heal given by a RPGCharacter
+     * @param healValue heal value
+     */
     public void receiveHeal(int healValue) {
         try {
             this.lifeBar.increase(healValue);
@@ -82,17 +105,38 @@ public abstract class RPGCharacter {
         }
     }
 
+    /**
+     * Getter
+     * @return stats of the character
+     */
     public RPGStats getStats() {
         return stats;
     }
 
+    /**
+     * Getter in order to know if character is dead
+     * @return true if dead and false if alive
+     */
     public boolean isDead() {
         return !bIsAlive;
     }
 
+    /**
+     * Display character class + life point
+     */
     public void displayChar() {
         System.out.println(this.getClass().getSimpleName());
         this.lifeBar.display();
     }
 
+    /**
+     * Display character class + lifepoint + stats
+     */
+    public void displayCharStats() {
+        System.out.println("=====================================");
+        System.out.println(this.getClass().getSimpleName());
+        this.lifeBar.display();
+        this.stats.displayStats();
+        System.out.println("=====================================");
+    }
 }

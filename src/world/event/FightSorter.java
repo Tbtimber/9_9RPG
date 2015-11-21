@@ -5,9 +5,11 @@ import world.group.rpgChar.RPGCharacter;
 import java.util.Comparator;
 
 /**
+ * Sort the ArrayList of RPGCharacter by decreasing value of velocity in order to determinate fight order
  * Created by Matthieu on 09/11/2015.
  */
 public class FightSorter implements Comparator<RPGCharacter>{
+
     @Override
     public int compare(RPGCharacter o1, RPGCharacter o2) {
         int vel1 = o1.getStats().getVelocity();

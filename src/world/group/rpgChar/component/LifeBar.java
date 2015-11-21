@@ -27,8 +27,8 @@ public class LifeBar extends RPGBar {
     }
 
     /**
-     *
-     * @param value
+     * Increase lifepoint by a entered amount
+     * @param value amount of lifePoint to be added
      * @throws ComponentExceptions if the character is dead (currentValue = 0)
      */
     @Override

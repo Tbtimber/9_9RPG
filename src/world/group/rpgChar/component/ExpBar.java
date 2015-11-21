@@ -1,6 +1,7 @@
 package world.group.rpgChar.component;
 
 /**
+ * Class that represent the experience bar of the character
  * Created by Matthieu on 31/10/2015.
  */
 public class ExpBar extends RPGBar {
@@ -22,8 +23,8 @@ public class ExpBar extends RPGBar {
     }
 
     /**
-     *
-     * @param value
+     * Increase experience value by the value entered
+     * @param value exp to increase
      * @throws ComponentExceptions if the characters lvlUp (lvl++)
      */
     @Override

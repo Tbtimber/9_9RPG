@@ -43,4 +43,10 @@ public class RPGGroup {
             this.group.get(i).displayChar();
         }
     }
+
+    public void displayGroupStats() {
+        for(int i=0;i<this.group.size();i++) {
+            this.group.get(i).displayCharStats();
+        }
+    }
 }

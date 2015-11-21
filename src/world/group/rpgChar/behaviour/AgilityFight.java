@@ -1,5 +1,6 @@
 package world.group.rpgChar.behaviour;
 
+import world.LogFile.SaveData;
 import world.group.rpgChar.RPGCharacter;
 
 /**
@@ -13,10 +14,11 @@ public class AgilityFight implements FightStyle {
         double damageTemp = attacker.getStats().getAgility()*DAMAGE_MULT;
         damageTemp -= defender.getStats().getAgility()*DEFENSE_MULT;
         defender.receiveAttack((int)damageTemp);
+        SaveData.write(attacker.getClass().getSimpleName() + " dealt " + damageTemp + " damage to " + defender.getClass().getSimpleName(), true);
     }
 
     @Override
     public void defend(RPGCharacter defender) {
-
+        SaveData.write(defender.getClass().getSimpleName() + " is defending !", true);
     }
 }
