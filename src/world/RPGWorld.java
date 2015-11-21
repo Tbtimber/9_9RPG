@@ -6,6 +6,7 @@
 
 package world;
 import java.io.*;
+import java.nio.charset.CharacterCodingException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -70,6 +71,7 @@ public class RPGWorld   {
             System.out.println("Where will you go next ? (I:up, L:right, K:down, J:left");
             Scanner sc = new Scanner(System.in);
             char c = sc.nextLine().charAt(0);
+            c = Character.toUpperCase(c);
             switch (c) {
                 case 'I':
                     orientation = 1;
@@ -102,26 +104,30 @@ public class RPGWorld   {
         switch (direction) {
             case 1:
                 if (this.tiles.get(MIDDLE_INDICE - 1).get(MIDDLE_INDICE).getBIsSolid()) {
+                    System.out.println("Tile is solid choose another direction !");
                     return false;
                 }
                 break;
             case 2:
                 if (this.tiles.get(MIDDLE_INDICE).get(MIDDLE_INDICE + 1).getBIsSolid()) {
+                    System.out.println("Tile is solid choose another direction !");
                     return false;
                 }
                 break;
             case 3:
                 if (this.tiles.get(MIDDLE_INDICE + 1).get(MIDDLE_INDICE).getBIsSolid()) {
+                    System.out.println("Tile is solid choose another direction !");
                     return false;
                 }
                 break;
             case 4:
                 if (this.tiles.get(MIDDLE_INDICE).get(MIDDLE_INDICE - 1).getBIsSolid()) {
+                    System.out.println("Tile is solid choose another direction !");
                     return false;
                 }
                 break;
             default:
-                System.out.println("Tile is solid in the chosen direction !\nPlease choose another direction !");
+                System.out.println("Wrong input !");
                 return false;
         }
         return true;

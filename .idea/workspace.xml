@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8379301f-c22c-4805-8ecd-36a4da0fa52d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/pkg9_9rpg/Main.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/pkg9_9rpg/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/LogFile/SaveData.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/LogFile/SaveData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/RPGWorld.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/RPGWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/event/Fight.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/event/Fight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/event/FightSorter.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/event/FightSorter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/event/NoEvent.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/event/NoEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/event/RPGEvent.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/event/RPGEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/RPGGroup.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/RPGGroup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/Archer.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/Archer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/Mage.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/Mage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGCharacter.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGCharacter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGEnemy.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGEnemy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGGoodGuy.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/RPGGoodGuy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/Warrior.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/Warrior.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/behaviour/AgilityFight.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/behaviour/AgilityFight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/behaviour/MagicFight.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/behaviour/MagicFight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/behaviour/StrengthFight.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/behaviour/StrengthFight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/component/RPGStats.class" afterPath="$PROJECT_DIR$/out/production/9_9RPG/world/group/rpgChar/component/RPGStats.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.txt" afterPath="$PROJECT_DIR$/data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pkg9_9rpg/Main.java" afterPath="$PROJECT_DIR$/src/pkg9_9rpg/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/LogFile/SaveData.java" afterPath="$PROJECT_DIR$/src/world/LogFile/SaveData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/RPGWorld.java" afterPath="$PROJECT_DIR$/src/world/RPGWorld.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/event/Fight.java" afterPath="$PROJECT_DIR$/src/world/event/Fight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/event/FightSorter.java" afterPath="$PROJECT_DIR$/src/world/event/FightSorter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/event/NoEvent.java" afterPath="$PROJECT_DIR$/src/world/event/NoEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/event/RPGEvent.java" afterPath="$PROJECT_DIR$/src/world/event/RPGEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/RPGGroup.java" afterPath="$PROJECT_DIR$/src/world/group/RPGGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/Archer.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/Archer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/Mage.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/Mage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/RPGCharacter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/RPGEnemy.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/RPGEnemy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/RPGGoodGuy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/Warrior.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/Warrior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/AgilityFight.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/AgilityFight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/MagicFight.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/MagicFight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/StrengthFight.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/behaviour/StrengthFight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/component/ComponentExceptions.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/component/ComponentExceptions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/component/ExpBar.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/component/ExpBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/world/group/rpgChar/component/RPGStats.java" afterPath="$PROJECT_DIR$/src/world/group/rpgChar/component/RPGStats.java" />
     </list>
     <ignored path="9_9RPG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/world/RPGWorld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              <caret line="141" column="30" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -78,8 +40,18 @@
       <file leaf-file-name="data.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.7094594">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.1858108">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pkg9_9rpg/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -148,16 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/world/group/rpgChar/Mage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SaveData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/world/LogFile/SaveData.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -216,12 +178,12 @@
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/Archer.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/Mage.java" />
         <option value="$PROJECT_DIR$/src/world/LogFile/SaveData.java" />
-        <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/src/world/event/Fight.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/ComponentExceptions.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/ExpBar.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/LifeBar.java" />
         <option value="$PROJECT_DIR$/src/world/group/rpgChar/component/RPGBar.java" />
+        <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/src/world/RPGWorld.java" />
       </list>
     </option>
@@ -311,6 +273,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pkg9_9rpg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -776,7 +742,7 @@
       <workItem from="1447359036716" duration="21000" />
       <workItem from="1447925794813" duration="6281000" />
       <workItem from="1447964946199" duration="16000" />
-      <workItem from="1448115574379" duration="4883000" />
+      <workItem from="1448115574379" duration="5927000" />
     </task>
     <task id="LOCAL-00001" summary="TestofCommit&#10;">
       <created>1446473268715</created>
@@ -788,7 +754,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15789000" />
+    <option name="totallyTimeSpent" value="16833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -1321,7 +1287,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1331,16 +1297,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pkg9_9rpg/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,7 +1315,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1391,8 +1349,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1410,8 +1368,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="false" />
+            <element signature="e#171#172#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1499,18 +1457,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pkg9_9rpg/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/world/RPGWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <caret line="141" column="30" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7094594">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.1858108">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>

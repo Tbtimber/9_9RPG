@@ -1,47 +1,6 @@
 Start of LOGFILE :
-Turn 1 : Moved RIGHT
-
-A fight started !
-	Turn 1 : Archer is defending !
-	Turn 2 : Mage dealt 32.5 damage to Monster
-	Turn 3 : Monster dealt 18.0 damage to Archer
-	Turn 4 : Monster dealt 18.0 damage to Archer
-	Turn 5 : Monster dealt 18.0 damage to Archer
-	Turn 6 : Monster dealt 18.0 damage to Archer
-	Turn 7 : Warrior dealt 27.5 damage to Monster
-	Turn 8 : Archer dealt 31.5 damage to Monster
-	Turn 9 : Mage dealt 32.5 damage to Monster
-	Turn 10 : Monster dealt 18.0 damage to Archer
-	Turn 11 : Monster dealt 18.0 damage to Archer
-	Turn 12 : 	Turn 13 : Monster dealt 18.0 damage to Archer
-	Turn 14 : Warrior dealt 27.5 damage to Monster
-	Turn 15 : Archer dealt 31.5 damage to Monster
-	Turn 16 : Mage dealt 32.5 damage to Monster
-	Turn 17 : Monster dealt 18.0 damage to Archer
-	Turn 18 : Monster dealt 23.0 damage to Mage
-	Turn 19 : 	Turn 20 : Monster dealt 23.0 damage to Mage
-	Turn 21 : Warrior dealt 27.5 damage to Monster
-	Turn 22 : 	Turn 23 : Mage dealt 32.5 damage to Monster
-	Turn 24 : Monster dealt 23.0 damage to Mage
-	Turn 25 : Monster dealt 23.0 damage to Mage
-	Turn 26 : 	Turn 27 : 	Turn 28 : Warrior dealt 27.5 damage to Monster
-	Turn 29 : 	Turn 30 : Mage dealt 32.5 damage to Monster
-	Turn 31 : Monster dealt 23.0 damage to Mage
-	Turn 32 : Monster dealt 15.0 damage to Monster
-	Turn 33 : 	Turn 34 : 	Turn 35 : Warrior dealt 27.5 damage to Monster
-	Turn 36 : 	Turn 37 : 	Turn 38 : Monster dealt 15.0 damage to Monster
-	Turn 39 : Monster dealt 15.0 damage to Monster
-	Turn 40 : 	Turn 41 : 	Turn 42 : Warrior dealt 27.5 damage to Monster
-	Turn 43 : 	Turn 44 : 	Turn 45 : Monster dealt 15.0 damage to Monster
-	Turn 46 : Monster dealt 15.0 damage to Monster
-	Turn 47 : 	Turn 48 : 	Turn 49 : Warrior dealt 27.5 damage to Monster
-	Turn 50 : 	Turn 51 : 	Turn 52 : Monster dealt 15.0 damage to Monster
-	Turn 53 : 	Turn 54 : 	Turn 55 : 	Turn 56 : Warrior dealt 27.5 damage to Monster
-	Turn 57 : 	Turn 58 : 	Turn 59 : Monster dealt 15.0 damage to Monster
-End of the fight !
-Turn 2 : Moved Up
+Turn 1 : Moved DOWN
 
 	Nothing happened in this tile !
-Turn 3 : Displayed team status.
-Turn 4 : Ended the game.
+Turn 2 : Ended the game.
 End of this party ...
